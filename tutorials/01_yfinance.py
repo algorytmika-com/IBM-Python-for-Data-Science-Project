@@ -3,7 +3,7 @@ import pandas as pd
 
 apple = yf.Ticker("AAPL")
 
-!wget https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-PY0220EN-SkillsNetwork/data/apple.json
+#!wget https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-PY0220EN-SkillsNetwork/data/apple.json
 
 import json
 with open('apple.json') as json_file:
